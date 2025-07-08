@@ -1,4 +1,6 @@
 package com.shan.ms.productservice.dto;
 
-public record ProductRequest() {
+import java.math.BigDecimal;
+
+public record ProductRequest(String name, String description, BigDecimal price) {
 }
